@@ -71,7 +71,7 @@
         <!-- PERSONAL PROJECTS -->
         <div class="section-title" style="margin-top: 6rem;">02 / Personal Projects</div>
 
-        <a href="https://github.com/Rico-febrian/untitled-ecommerce-data-platform" target="_blank" class="project-row">
+        <a href="https://github.com/Rico-febrian/ecommerce-realtime-data-platform" target="_blank" class="project-row">
             <div class="project-left">
                 <div class="project-name">Real-Time E-Commerce Data Platform</div>
             </div>
@@ -83,6 +83,21 @@
                 <div class="project-summary">Built a full data platform simulating real-time e-commerce operations. CDC captures transactional changes from PostgreSQL via Debezium into Redpanda, processed through a Bronze-Silver-Gold lakehouse architecture using Spark and dbt, and served to Metabase dashboards. Fully containerized.</div>
                 <div class="project-cta">View Repository ↗</div>
             </div>
+
+        </a>
+
+                <a href="https://github.com/Rico-febrian/exchange-rate-reporting-pipeline" target="_blank" class="project-row">
+            <div class="project-left">
+                <div class="project-name">Exchange Rate Reporting Pipeline/div>
+            </div>
+            <div class="project-right">
+                <div class="project-tags">
+                    <span class="tag-label">Stack</span>
+                    Python / Airflow / DBT / PostgreSQL / MinIO / Grafana / Prometheus / Metabase / Docker 
+                </div>
+                <div class="project-summary">End-to-end ELT pipeline simulating daily exchange rate monitoring using Airflow, dbt, PostgreSQL, and Metabase, with monitoring in Grafana/Prometheus and failure alerts via Slack.</div>
+                <div class="project-cta">View Repository ↗</div>
+            </div>
         </a>
 
         <a href="https://github.com/Rico-febrian/elt-pipeline-for-supply-chain-business" target="_blank" class="project-row">
@@ -92,23 +107,9 @@
             <div class="project-right">
                 <div class="project-tags">
                     <span class="tag-label">Stack</span>
-                    Snowflake / dbt / Airflow / Astronomer Cosmos / Looker Studio
+                    Snowflake / DBT / Airflow / Astronomer Cosmos / Looker Studio
                 </div>
                 <div class="project-summary">ELT pipeline for a supply chain use case built on Snowflake. Designed a dimensional model with dbt, implemented SCD snapshots for historical tracking, and orchestrated with Airflow using Astronomer Cosmos. Visualized in Looker Studio.</div>
-                <div class="project-cta">View Repository ↗</div>
-            </div>
-        </a>
-
-        <a href="https://github.com/Rico-febrian/flight-bookings-elt-pipeline-with-airflow" target="_blank" class="project-row">
-            <div class="project-left">
-                <div class="project-name">ELT Pipeline for Flight Booking Analytics</div>
-            </div>
-            <div class="project-right">
-                <div class="project-tags">
-                    <span class="tag-label">Stack</span>
-                    Python / Airflow / PostgreSQL / MinIO / Docker
-                </div>
-                <div class="project-summary">ELT pipeline for a flight booking use case orchestrated with Airflow. Extracts data to MinIO, loads into a staging warehouse, and transforms into a dimensional model. Supports incremental loads and Slack alerts on failure.</div>
                 <div class="project-cta">View Repository ↗</div>
             </div>
         </a>
